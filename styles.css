@@ -14,11 +14,13 @@ h1 {
 
 .display {
     width: 440px;
-    background-color:rgb(47, 82, 47);
+    background-color:rgba(59, 216, 59, 0.4);
     border: 4px solid black;
     border-radius: 2px;
     margin: 4px auto;
+    backdrop-filter: blur(10px);
 }
+
 
 .upper-display {
     text-align: right;
@@ -48,6 +50,17 @@ p {
     font-size: 26px;
     gap: 8px;
     margin: 5px;
+}
+
+.special-btn {
+    width: 70px;
+    height: 70px;
+    border: 4px solid black;
+    border-radius: 2px;
+    font-size: 26px;
+    gap: 8px;
+    margin: 5px;
+    background-color: grey;
 }
 
 #equals {
